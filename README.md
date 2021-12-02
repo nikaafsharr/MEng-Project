@@ -1,3 +1,3 @@
 # MEng-Project
 
-This is the Homework branck
+These two files are for sending oxDNA code to run on the Imperial College cluster.
