@@ -1,3 +1,3 @@
 # MEng-Project
 
-This is the Homework branck
+This is where the homework is uploaded. Each folder is a different homework relating to working with oxDNA.
