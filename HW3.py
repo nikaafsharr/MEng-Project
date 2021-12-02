@@ -8,7 +8,7 @@ def convert(lst):
 
 
 MD = 12  # I've only done it for 1 right now. We can average over 12 when we get one working?
-repetitions = 1  # Out of 4
+repetitions = 4  # Out of 4
 
 data_points = 1000000
 
@@ -79,8 +79,8 @@ for params in parameters:
     print(average_of_rep[0])
     # print(average_of_rep[2]) #Just to see. and there should be 12 points?
 
-    plt.plot(average_of_rep, force_array, 'o', color=params['colour'])
-    plt.plot(average_of_rep, force_array, '--', linewidth=0.5, color=params['colour'], label=params['legend_title'])
+    plt.plot(average_of_rep*48.6, force_array, 'o', color=params['colour'])
+    plt.plot(average_of_rep*48.6, force_array, '--', linewidth=0.5, color=params['colour'], label=params['legend_title'])
 
 plt.xlabel('Extension per base (nm)')
 plt.ylabel('Force (pN)')
