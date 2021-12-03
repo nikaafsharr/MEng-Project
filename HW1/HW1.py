@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-
 ## A function that gives you a list of folders in the directory you are
 
 df = pd.DataFrame()
