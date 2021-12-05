@@ -1,0 +1,28 @@
+#### PROGRAM PARAMETERS ####
+backend = CPU
+backend_precision = double
+seed = 4993
+
+#### SIM PARAMETERS ####
+steps = 2.e7
+newtonian_steps = 103
+diff_coeff = 2.5
+#pt = 0.1
+thermostat = john
+T = 27C
+dt = 0.003
+verlet_skin = 0.05
+
+#### INPUT / OUTPUT ####
+topology = generated.top
+conf_file = generated.dat
+trajectory_file = trajectory.dat
+refresh_vel = 1
+#log_file = log.dat
+no_stdout_energy = 0
+restart_step_counter = 1
+energy_file = energy.dat
+print_conf_interval = 1.e6
+print_energy_every = 1000.
+external_forces = 0
+time_scale = linear
