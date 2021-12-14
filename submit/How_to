@@ -1,0 +1,2 @@
+Each time a submission is made to the cluster, the submit file is altered. If multiple submissions want to be made,
+  the submit_parallel must be sent to the cluster.
